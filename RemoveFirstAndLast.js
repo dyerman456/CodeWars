@@ -1,4 +1,4 @@
 function removeChar(str){
-    return str.substr(1).slice(0, -1);
+    return str.slice(1, -1);
   };
   
