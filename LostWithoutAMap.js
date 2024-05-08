@@ -1,8 +1,4 @@
-function maps(arr){
-    let newArr = []
-    for (let num of arr){
-      newArr.push(num * 2);
-    }
-    return newArr;
+function maps(x){
+    return x.map(x => x * 2);
   }
   
